@@ -1,0 +1,102 @@
+body {
+  background-color: aqua;
+  text-align: center;
+}
+
+p {
+  font-size: 25px;
+}
+
+.menu {
+  font-size: 20px;
+  list-style:none;
+  font-family: cursive;
+  float:right;
+  top:10px;
+  right:30px;
+  cursor:pointer;
+  color:red;
+  font-weight:bold;
+}
+
+
+.link {
+    display: inline;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-family: fantasy;
+    font-size: 20px
+}
+#about {
+    height: 100%;
+    width: 100%;
+    display: table;
+    padding-top: 10px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.menu {
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    margin-top: 0px;
+    top: 0px;
+    z-index: 10;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+    text-shadow: 2px 2px gainsboro;
+}
+
+.link:hover {
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+#hobby {
+    height: 100%;
+    width: 100%;
+    display: table;
+}
+
+#inspiration {
+    height: 100%;
+    width: 100%;
+    display: table;
+}
+
+#work {
+    height: 100%;
+    width: 100%;
+    display: table;
+}
+
+.linksfo {
+    font-size:80px;
+    text-decoration-line: underline;
+}
+
+.contact_1 h3
+{
+    display: inline;
+}
+.contact_1 a
+{
+    color: red;
+    text-shadow: none;
+}
+
+#contact
+{
+background: aqua;
+}
+
+#contact iframe
+{
+    width: 100%;
+}
