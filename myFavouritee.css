@@ -100,3 +100,16 @@ background: aqua;
 {
     width: 100%;
 }
+
+#ronaldo {
+    height: 400px;
+    width: 440x;
+    transition: transform .2s;
+    border: 10px solid #AAAAAA
+}
+
+#ronaldo:hover {
+    transform: scale(0.9);
+}
+
+
